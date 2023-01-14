@@ -1,7 +1,5 @@
 import React from 'react';
 import { TiDelete } from 'react-icons/ti';
-import PropTypes from 'prop-types';
-
 
 import { Box } from 'components/Box';
 
@@ -35,9 +33,3 @@ const Filter = ({ filterString, onChange, clearFilter }) => {
 };
 
 export default Filter;
-
-Filter.propTypes = {
-  filterString: PropTypes.string.isRequired,
-  onChange: PropTypes.func,
-  clearFilter: PropTypes.func,
-}
