@@ -76,7 +76,7 @@ export const App = () => {
   //=========== render ==============================================
 
   return (
-    <Box
+    <Box 
       height="100vh"
       display="flex"
       flexDirection="column"
