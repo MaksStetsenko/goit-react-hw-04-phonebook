@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { MdDelete } from 'react-icons/md';
 
@@ -22,3 +23,10 @@ const Contact = ({ contactId, name, phone, getContactId }) => {
 };
 
 export default Contact;
+
+Contact.propTypes = {
+  contactId: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired,
+  getContactId: PropTypes.func.isRequired,
+};
